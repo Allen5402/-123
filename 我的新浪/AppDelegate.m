@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ZDCTabBarController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +16,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    application.statusBarHidden = NO;
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    UITabBarController *tabBarVC = [[ZDCTabBarController alloc]init];
+    self.window.rootViewController = tabBarVC;
+    
+    
     return YES;
 }
 

@@ -9,12 +9,23 @@
 /* Begin PBXBuildFile section */
 		9F6141101DA7357100FD7393 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F61410F1DA7357100FD7393 /* main.m */; };
 		9F6141131DA7357100FD7393 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6141121DA7357100FD7393 /* AppDelegate.m */; };
-		9F6141161DA7357100FD7393 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6141151DA7357100FD7393 /* ViewController.m */; };
-		9F6141191DA7357100FD7393 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F6141171DA7357100FD7393 /* Main.storyboard */; };
 		9F61411B1DA7357100FD7393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F61411A1DA7357100FD7393 /* Assets.xcassets */; };
 		9F61411E1DA7357100FD7393 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F61411C1DA7357100FD7393 /* LaunchScreen.storyboard */; };
 		9F6141291DA7357100FD7393 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6141281DA7357100FD7393 /* ____Tests.m */; };
 		9F6141341DA7357100FD7393 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6141331DA7357100FD7393 /* ____UITests.m */; };
+		9F6141461DA7422400FD7393 /* ZDCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6141451DA7422400FD7393 /* ZDCTabBarController.m */; };
+		9F61414D1DA74F1300FD7393 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F61414C1DA74F1300FD7393 /* UIView+Extension.m */; };
+		9F6141501DA753C000FD7393 /* ZDCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F61414F1DA753C000FD7393 /* ZDCNavigationController.m */; };
+		9F6141531DA7593400FD7393 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6141521DA7593400FD7393 /* UIBarButtonItem+Extension.m */; };
+		9F61415B1DA7640A00FD7393 /* ZDCHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F61415A1DA7640A00FD7393 /* ZDCHomeViewController.m */; };
+		9F61415E1DA7643900FD7393 /* ZDCMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F61415D1DA7643900FD7393 /* ZDCMessageViewController.m */; };
+		9F6141611DA7644700FD7393 /* ZDCDiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6141601DA7644700FD7393 /* ZDCDiscoverViewController.m */; };
+		9F6141641DA7645200FD7393 /* ZDCProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6141631DA7645200FD7393 /* ZDCProfileViewController.m */; };
+		9F61416B1DA77DDE00FD7393 /* ZDCSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F61416A1DA77DDE00FD7393 /* ZDCSearchBar.m */; };
+		9F61416F1DA78F3B00FD7393 /* ZDCDropdownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F61416E1DA78F3B00FD7393 /* ZDCDropdownMenu.m */; };
+		9F6141721DA795D800FD7393 /* ZDCTitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6141711DA795D800FD7393 /* ZDCTitleViewController.m */; };
+		9F6141751DA7A51B00FD7393 /* ZDCTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6141741DA7A51B00FD7393 /* ZDCTabBar.m */; };
+		9F61417A1DA7B51B00FD7393 /* ZDCNewFeatrueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F6141791DA7B51B00FD7393 /* ZDCNewFeatrueViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +50,6 @@
 		9F61410F1DA7357100FD7393 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9F6141111DA7357100FD7393 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9F6141121DA7357100FD7393 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9F6141141DA7357100FD7393 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9F6141151DA7357100FD7393 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9F6141181DA7357100FD7393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F61411A1DA7357100FD7393 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F61411D1DA7357100FD7393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F61411F1DA7357100FD7393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +59,33 @@
 		9F61412F1DA7357100FD7393 /* 我的新浪UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "我的新浪UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F6141331DA7357100FD7393 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		9F6141351DA7357100FD7393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F6141441DA7422400FD7393 /* ZDCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDCTabBarController.h; sourceTree = "<group>"; };
+		9F6141451DA7422400FD7393 /* ZDCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDCTabBarController.m; sourceTree = "<group>"; };
+		9F61414A1DA74B8300FD7393 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		9F61414B1DA74F1300FD7393 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		9F61414C1DA74F1300FD7393 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		9F61414E1DA753C000FD7393 /* ZDCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDCNavigationController.h; sourceTree = "<group>"; };
+		9F61414F1DA753C000FD7393 /* ZDCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDCNavigationController.m; sourceTree = "<group>"; };
+		9F6141511DA7593400FD7393 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		9F6141521DA7593400FD7393 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		9F6141591DA7640A00FD7393 /* ZDCHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDCHomeViewController.h; sourceTree = "<group>"; };
+		9F61415A1DA7640A00FD7393 /* ZDCHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDCHomeViewController.m; sourceTree = "<group>"; };
+		9F61415C1DA7643900FD7393 /* ZDCMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDCMessageViewController.h; sourceTree = "<group>"; };
+		9F61415D1DA7643900FD7393 /* ZDCMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDCMessageViewController.m; sourceTree = "<group>"; };
+		9F61415F1DA7644700FD7393 /* ZDCDiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDCDiscoverViewController.h; sourceTree = "<group>"; };
+		9F6141601DA7644700FD7393 /* ZDCDiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDCDiscoverViewController.m; sourceTree = "<group>"; };
+		9F6141621DA7645200FD7393 /* ZDCProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDCProfileViewController.h; sourceTree = "<group>"; };
+		9F6141631DA7645200FD7393 /* ZDCProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDCProfileViewController.m; sourceTree = "<group>"; };
+		9F6141691DA77DDE00FD7393 /* ZDCSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDCSearchBar.h; sourceTree = "<group>"; };
+		9F61416A1DA77DDE00FD7393 /* ZDCSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDCSearchBar.m; sourceTree = "<group>"; };
+		9F61416D1DA78F3B00FD7393 /* ZDCDropdownMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDCDropdownMenu.h; sourceTree = "<group>"; };
+		9F61416E1DA78F3B00FD7393 /* ZDCDropdownMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDCDropdownMenu.m; sourceTree = "<group>"; };
+		9F6141701DA795D800FD7393 /* ZDCTitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDCTitleViewController.h; sourceTree = "<group>"; };
+		9F6141711DA795D800FD7393 /* ZDCTitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDCTitleViewController.m; sourceTree = "<group>"; };
+		9F6141731DA7A51B00FD7393 /* ZDCTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDCTabBar.h; sourceTree = "<group>"; };
+		9F6141741DA7A51B00FD7393 /* ZDCTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDCTabBar.m; sourceTree = "<group>"; };
+		9F6141781DA7B51B00FD7393 /* ZDCNewFeatrueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDCNewFeatrueViewController.h; sourceTree = "<group>"; };
+		9F6141791DA7B51B00FD7393 /* ZDCNewFeatrueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDCNewFeatrueViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +138,17 @@
 			children = (
 				9F6141111DA7357100FD7393 /* AppDelegate.h */,
 				9F6141121DA7357100FD7393 /* AppDelegate.m */,
-				9F6141141DA7357100FD7393 /* ViewController.h */,
-				9F6141151DA7357100FD7393 /* ViewController.m */,
-				9F6141171DA7357100FD7393 /* Main.storyboard */,
+				9F6141761DA7B4EF00FD7393 /* NewFeature */,
+				9F6141581DA763B300FD7393 /* Profile */,
+				9F6141571DA763A700FD7393 /* Discover */,
+				9F6141561DA7639C00FD7393 /* Message */,
+				9F6141551DA7638B00FD7393 /* Home */,
+				9F6141541DA7637600FD7393 /* Main */,
+				9F61414B1DA74F1300FD7393 /* UIView+Extension.h */,
+				9F61414C1DA74F1300FD7393 /* UIView+Extension.m */,
+				9F6141511DA7593400FD7393 /* UIBarButtonItem+Extension.h */,
+				9F6141521DA7593400FD7393 /* UIBarButtonItem+Extension.m */,
+				9F61414A1DA74B8300FD7393 /* Header.h */,
 				9F61411A1DA7357100FD7393 /* Assets.xcassets */,
 				9F61411C1DA7357100FD7393 /* LaunchScreen.storyboard */,
 				9F61411F1DA7357100FD7393 /* Info.plist */,
@@ -138,6 +181,118 @@
 				9F6141351DA7357100FD7393 /* Info.plist */,
 			);
 			path = "我的新浪UITests";
+			sourceTree = "<group>";
+		};
+		9F6141541DA7637600FD7393 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				9F6141441DA7422400FD7393 /* ZDCTabBarController.h */,
+				9F6141451DA7422400FD7393 /* ZDCTabBarController.m */,
+				9F61414E1DA753C000FD7393 /* ZDCNavigationController.h */,
+				9F61414F1DA753C000FD7393 /* ZDCNavigationController.m */,
+				9F61416C1DA77DE700FD7393 /* View */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		9F6141551DA7638B00FD7393 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9F6141681DA7656B00FD7393 /* Controller */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		9F6141561DA7639C00FD7393 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				9F6141671DA7656200FD7393 /* Controller */,
+			);
+			name = Message;
+			sourceTree = "<group>";
+		};
+		9F6141571DA763A700FD7393 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				9F6141661DA7655600FD7393 /* Controller */,
+			);
+			name = Discover;
+			sourceTree = "<group>";
+		};
+		9F6141581DA763B300FD7393 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				9F6141651DA7654B00FD7393 /* Controller */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		9F6141651DA7654B00FD7393 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9F6141621DA7645200FD7393 /* ZDCProfileViewController.h */,
+				9F6141631DA7645200FD7393 /* ZDCProfileViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9F6141661DA7655600FD7393 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9F61415F1DA7644700FD7393 /* ZDCDiscoverViewController.h */,
+				9F6141601DA7644700FD7393 /* ZDCDiscoverViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9F6141671DA7656200FD7393 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9F61415C1DA7643900FD7393 /* ZDCMessageViewController.h */,
+				9F61415D1DA7643900FD7393 /* ZDCMessageViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9F6141681DA7656B00FD7393 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9F6141591DA7640A00FD7393 /* ZDCHomeViewController.h */,
+				9F61415A1DA7640A00FD7393 /* ZDCHomeViewController.m */,
+				9F6141701DA795D800FD7393 /* ZDCTitleViewController.h */,
+				9F6141711DA795D800FD7393 /* ZDCTitleViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9F61416C1DA77DE700FD7393 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F6141691DA77DDE00FD7393 /* ZDCSearchBar.h */,
+				9F61416A1DA77DDE00FD7393 /* ZDCSearchBar.m */,
+				9F61416D1DA78F3B00FD7393 /* ZDCDropdownMenu.h */,
+				9F61416E1DA78F3B00FD7393 /* ZDCDropdownMenu.m */,
+				9F6141731DA7A51B00FD7393 /* ZDCTabBar.h */,
+				9F6141741DA7A51B00FD7393 /* ZDCTabBar.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9F6141761DA7B4EF00FD7393 /* NewFeature */ = {
+			isa = PBXGroup;
+			children = (
+				9F6141771DA7B4FC00FD7393 /* Controller */,
+			);
+			name = NewFeature;
+			sourceTree = "<group>";
+		};
+		9F6141771DA7B4FC00FD7393 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9F6141781DA7B51B00FD7393 /* ZDCNewFeatrueViewController.h */,
+				9F6141791DA7B51B00FD7393 /* ZDCNewFeatrueViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +357,7 @@
 		9F6141031DA7357100FD7393 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZDC;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = allen;
 				TargetAttributes = {
@@ -245,7 +401,6 @@
 			files = (
 				9F61411E1DA7357100FD7393 /* LaunchScreen.storyboard in Resources */,
 				9F61411B1DA7357100FD7393 /* Assets.xcassets in Resources */,
-				9F6141191DA7357100FD7393 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +425,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F6141161DA7357100FD7393 /* ViewController.m in Sources */,
+				9F6141531DA7593400FD7393 /* UIBarButtonItem+Extension.m in Sources */,
+				9F6141461DA7422400FD7393 /* ZDCTabBarController.m in Sources */,
+				9F6141721DA795D800FD7393 /* ZDCTitleViewController.m in Sources */,
+				9F61415E1DA7643900FD7393 /* ZDCMessageViewController.m in Sources */,
+				9F61416F1DA78F3B00FD7393 /* ZDCDropdownMenu.m in Sources */,
+				9F61416B1DA77DDE00FD7393 /* ZDCSearchBar.m in Sources */,
 				9F6141131DA7357100FD7393 /* AppDelegate.m in Sources */,
+				9F6141751DA7A51B00FD7393 /* ZDCTabBar.m in Sources */,
+				9F61417A1DA7B51B00FD7393 /* ZDCNewFeatrueViewController.m in Sources */,
+				9F61415B1DA7640A00FD7393 /* ZDCHomeViewController.m in Sources */,
+				9F6141611DA7644700FD7393 /* ZDCDiscoverViewController.m in Sources */,
+				9F6141501DA753C000FD7393 /* ZDCNavigationController.m in Sources */,
+				9F61414D1DA74F1300FD7393 /* UIView+Extension.m in Sources */,
+				9F6141641DA7645200FD7393 /* ZDCProfileViewController.m in Sources */,
 				9F6141101DA7357100FD7393 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,14 +475,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9F6141171DA7357100FD7393 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9F6141181DA7357100FD7393 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9F61411C1DA7357100FD7393 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -416,6 +575,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "我的新浪/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "---.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +587,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "我的新浪/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "---.----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +659,7 @@
 				9F61413A1DA7357100FD7393 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F61413B1DA7357100FD7393 /* Build configuration list for PBXNativeTarget "我的新浪Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +668,7 @@
 				9F61413D1DA7357100FD7393 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9F61413E1DA7357100FD7393 /* Build configuration list for PBXNativeTarget "我的新浪UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +677,7 @@
 				9F6141401DA7357100FD7393 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
